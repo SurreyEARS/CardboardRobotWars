@@ -1,6 +1,6 @@
 # CardboardRobotWars
 
-Similar to the competitionn created by [Columbia Gadeget Works](http://www.columbiagadgetworks.org/wiki/index.php/Combat_Robots), this competition involves putting robots made out of cardboard head to head to find a victor.
+Similar to the competitionn created by [Columbia Gadget Works](http://www.columbiagadgetworks.org/wiki/index.php/Combat_Robots), this competition involves putting robots made out of cardboard head to head to find a victor.
 
 ## Stuff to do
 * Design a robot on a board to act as a starter kit for contestants.
