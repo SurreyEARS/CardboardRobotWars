@@ -1,0 +1,29 @@
+1) flash raspbian
+
+2) config.txt
++ dtoverlay =dwc2
+comment out the other dtoverlay variable
+
+3) cmdline.txt
+BE CAREFUL WITH THE FORMATTING - 1 LINE ONLY. Add the following after rootwait:
+modules-load=dwc2,g_ether
+
+4) create a new file called ssh
+
+5) log in via ssh on port 22 pi@raspberrypi.local
+password is raspberry
+
+6) sudo nano /etc/wpa_supplicant/wpa_supplicant
+change it to the following
+
+ctrl_interface=DIR=/var/run/wpa_supplicant GROUP=netdev
+update_config=1
+
+network={
+        ssid="CardboardColosseum"
+        psk="AllIPsLeadToRome"
+        proto=RSN
+        key_mgmt=WPA-PSK
+        pairwise=CCMP
+        auth_alg=OPEN
+}
