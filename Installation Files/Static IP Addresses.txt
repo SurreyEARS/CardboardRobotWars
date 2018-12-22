@@ -8,17 +8,18 @@ Default Gateway
 192.168.0.254
 
 Static IP
+192.168.0.73 - Blue		yes 
 192.168.0.74 - Orange	yes
 192.168.0.75 - White	yes
 192.168.0.76 - Yellow	yes
 192.168.0.77 - Black	yes
-192.168.0.78 - Red		yes
-192.168.0.79 - Green	
+192.168.0.78 - Red		yes	BURNT
+192.168.0.79 - Green	yes
 
 
 
 interface wlan0
-static ip_address=192.168.0.79
+static ip_address=192.168.0.73
 
 static routers=192.168.0.254
 static domain_name_servers=192.168.0.254
